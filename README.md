@@ -1,8 +1,10 @@
 # smart-store-miller
 
-This repository is for Project 1 of BI and Analytics where we will create a basic business intelligence project.
+This repository is for multiple modules of BI and Analytics where we will create a basic business intelligence project over the course of a few weeks.
 
 ## How to Install and Run the Project
+
+### How to Install
 
 First you must clone the project to your local machine.
 
@@ -57,3 +59,9 @@ Lastly, we will select our VS Code Interpreter
 Now your project is ready and the real fun can begin
 
 Don't forget to regularly Git add-commit-push to keep everything up to date
+
+### How to Run
+
+```shell
+py scripts\data_prep.py
+```
