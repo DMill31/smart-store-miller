@@ -1,0 +1,9 @@
+ProductID,ProductName,Category,UnitPrice,CurrentDiscountPercent,Subcategory
+101,laptop,Electronics,793.12,10,computers
+102,hoodie,Clothing,39.1,0,tops
+103,cable,Electronics,22.76,15,miscellaneous
+104,hat,Clothing,43.1,30,headwear
+105,football,Sports,19.78,15,balls
+106,controller,Electronics,88.98,0,accessories
+107,jacket,Clothing,67.02,25,tops
+108,protector,Electronics,12.56,0,security
