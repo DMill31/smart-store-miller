@@ -114,3 +114,7 @@
 2025-03-24 11:51:11.190 | INFO     | __main__:main:37 - Starting data preparation...
 2025-03-24 11:51:11.196 | INFO     | __main__:save_prepared_data:33 - Data saved to C:\Projects\smart-store-miller\data\prepared\products_data_prepared.csv
 2025-03-24 11:51:11.196 | INFO     | __main__:main:90 - Data preparation complete.
+2025-03-24 12:02:46.596 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-03-24 12:02:46.596 | INFO     | __main__:main:37 - Starting data preparation...
+2025-03-24 12:02:46.605 | INFO     | __main__:save_prepared_data:33 - Data saved to C:\Projects\smart-store-miller\data\prepared\sales_data_prepared.csv
+2025-03-24 12:02:46.605 | INFO     | __main__:main:85 - Data preparation complete.
