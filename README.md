@@ -64,4 +64,8 @@ Don't forget to regularly Git add-commit-push to keep everything up to date
 
 ```shell
 py scripts\data_prep.py
+py test_data_scrubber.py
+py prepare_customers_data.py
+py prepare_products_data.py
+py prepare_sales_data.py
 ```
