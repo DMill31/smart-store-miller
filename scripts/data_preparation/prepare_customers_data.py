@@ -15,6 +15,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 # Now we can import local modules
 from utils.logger import logger
+from scripts.data_scrubber import DataScrubber
 
 # Constants
 DATA_DIR: pathlib.Path = PROJECT_ROOT.joinpath("data")
@@ -37,7 +38,9 @@ def main() -> None:
     logger.info("Starting data preparation...")
 
     df = read_raw_data("customers_data.csv")
+    scrubber = DataScrubber(df)
 
+    scrubber.check_data_consistency_before_cleaning()
     # Process data
 
     # Clean column names
@@ -82,6 +85,8 @@ def main() -> None:
     
     # Ensure correct entries in 'PreferredContactMethod'
     df = df[df['PreferredContactMethod'].isin(['call', 'email', 'mail', 'text'])]
+
+    scrubber.check_data_consistency_after_cleaning()
 
     # Save prepared data
     save_prepared_data(df, "customers_data_prepared.csv")

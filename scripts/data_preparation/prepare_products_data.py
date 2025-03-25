@@ -15,6 +15,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 # Now we can import local modules
 from utils.logger import logger
+from scripts.data_scrubber import DataScrubber
 
 # Constants
 DATA_DIR: pathlib.Path = PROJECT_ROOT.joinpath("data")
@@ -37,8 +38,11 @@ def main() -> None:
     logger.info("Starting data preparation...")
 
     df = read_raw_data("products_data.csv")
+    scrubber = DataScrubber(df)
 
     # Process data
+
+    scrubber.check_data_consistency_before_cleaning()
 
     # Clean column names
     df.columns = df.columns.str.strip()
@@ -83,6 +87,8 @@ def main() -> None:
     # Ensure correct entries in 'Subcategory'
     df = df[df['Subcategory'].isin(['tops', 'computers', 'accessories', 'miscellaneous',
                                      'security', 'balls', 'headwear'])]
+    
+    scrubber.check_data_consistency_after_cleaning()
 
     # Save prepared data
     save_prepared_data(df, "products_data_prepared.csv")
