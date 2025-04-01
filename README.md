@@ -157,3 +157,17 @@ py prepare_sales_data.py
 | sale_amount     | REAL      | Total amount of the sale                  |
 | bonus_points    | INTEGER   | How many bonus points the sale generated  |
 | payment_type    | TEXT      | How the customer paid                     |
+
+### Data Warehouse Screenshots
+
+**customers**
+
+![customers table](customers.png)
+
+**products**
+
+![products table](products.png)
+
+**sales**
+
+![sales table](sales.png)
