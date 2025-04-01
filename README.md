@@ -132,3 +132,28 @@ py prepare_sales_data.py
 | join_date                | DATE      | When the customer joined                    |
 | loyalty_points           | INTEGER   | How many loyalty points the customer has    |
 | preferred_contact_method | TEXT      | How the customer would like to be contacted |
+
+**products table**
+
+| Column Name              | Data Type | Description                         |
+|--------------------------|-----------|-------------------------------------|
+| product_id               | INTEGER   | Primary Key                         |
+| product_name             | TEXT      | Name of the product                 |
+| category                 | TEXT      | Category of the product             |
+| unit_price               | REAL      | Price of the product                |
+| current_discount_percent | INTEGER   | Discount on the product             |
+| subcategory              | TEXT      | Subcategory of the product          |
+
+**sales table**
+
+| Column Name     | Data Type | Description                               |
+|-----------------|-----------|-------------------------------------------|
+| transaction_id  | INTEGER   | Primary Key                               |
+| sale_date       | TEXT      | Date of the sale                          |
+| customer_id     | INTEGER   | The customer's ID                         |
+| product_id      | INTEGER   | The product's ID                          |
+| store_id        | INTEGER   | The store's ID                            |
+| campaign_id     | INTEGER   | The campaign's ID                         |
+| sale_amount     | REAL      | Total amount of the sale                  |
+| bonus_points    | INTEGER   | How many bonus points the sale generated  |
+| payment_type    | TEXT      | How the customer paid                     |
