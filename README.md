@@ -117,3 +117,18 @@ py prepare_sales_data.py
 ### 9. Final Quality Checks
 
 - Check data consistency, completeness, and final structure.
+
+## Data Warehouse
+
+### Schema
+
+**customers table**
+
+| Column Name              | Data Type | Description                                 |
+|--------------------------|-----------|---------------------------------------------|
+| customer_id              | INTEGER   | Primary Key                                 |
+| name                     | TEXT      | Name of the customer                        |
+| region                   | TEXT      | Where the customer lives                    |
+| join_date                | DATE      | When the customer joined                    |
+| loyalty_points           | INTEGER   | How many loyalty points the customer has    |
+| preferred_contact_method | TEXT      | How the customer would like to be contacted |
