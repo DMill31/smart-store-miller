@@ -171,3 +171,23 @@ py prepare_sales_data.py
 **sales**
 
 ![sales table](sales.png)
+
+## SQL Queries and Reports
+
+### Queries
+
+There is only one SQL query at the moment, it is used to figure out the top paying customers:
+
+```shell
+SELECT c.name, SUM(s.sale_amount) AS total_spent
+FROM sale s
+JOIN customer c ON s.customer_id = c.customer_id
+GROUP BY c.name
+ORDER BY total_spent DESC
+```
+
+### Reports
+
+For our query a new table titled 'Top Customers' was created where now we can see the total amount of money spent by each customer.
+
+## Power BI Dashboard
