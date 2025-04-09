@@ -191,3 +191,29 @@ ORDER BY total_spent DESC
 For our query a new table titled 'Top Customers' was created where now we can see the total amount of money spent by each customer.
 
 ## Power BI Dashboard
+
+### Query Results
+
+![results](query.png)
+
+### Model View
+
+![model](model.png)
+
+### Dashboard Design
+
+For the final dashboard, there are two slicers on the left-hand side for analyzing more specific data
+
+The rest of the dashboard contains four graphs/charts.
+
+One bar chart shows how much each payment type spent.
+
+The other bar chart shows how much each customer spent.
+
+The line graph shows the sales over time.
+
+Finally, the chart shows all the categories and subcategories of the products sold.
+
+![dashboard](dashboard.png)
+
+Each chart/slicer/graph contains an outline to help visualize what data belongs where, and the slicers were purposefully kept away from the graphs/charts.
