@@ -134,3 +134,30 @@
 2025-03-25 12:01:12.858 | INFO     | __main__:main:38 - Starting data preparation...
 2025-03-25 12:01:12.866 | INFO     | __main__:save_prepared_data:34 - Data saved to C:\Projects\smart-store-miller\data\prepared\sales_data_prepared.csv
 2025-03-25 12:01:12.867 | INFO     | __main__:main:90 - Data preparation complete.
+2025-04-14 10:28:46.856 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-14 10:28:46.857 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-14 10:28:46.859 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-14 10:28:46.861 | ERROR    | __main__:create_olap_cube:165 - Error creating OLAP cube: "Column(s) ['sale_amount_usd', 'sale_id'] do not exist"
+2025-04-14 10:32:24.367 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-14 10:32:24.367 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-14 10:32:24.369 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-14 10:32:24.371 | ERROR    | __main__:create_olap_cube:165 - Error creating OLAP cube: "Column(s) ['sale_id'] do not exist"
+2025-04-14 10:33:17.616 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-14 10:33:17.617 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-14 10:33:17.618 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-14 10:33:17.623 | ERROR    | __main__:create_olap_cube:165 - Error creating OLAP cube: 'Column not found: sale_id'
+2025-04-14 10:38:33.075 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-14 10:38:33.076 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-14 10:38:33.077 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-14 10:38:33.080 | ERROR    | __main__:create_olap_cube:165 - Error creating OLAP cube: "Column(s) ['sale_id'] do not exist"
+2025-04-14 10:38:46.249 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-14 10:38:46.249 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-14 10:38:46.251 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-14 10:38:46.253 | ERROR    | __main__:create_olap_cube:165 - Error creating OLAP cube: "Column(s) ['sale_id'] do not exist"
+2025-04-14 10:40:50.786 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-14 10:40:50.786 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-14 10:40:50.788 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-14 10:40:50.794 | INFO     | __main__:create_olap_cube:162 - OLAP cube created with dimensions: ['DayOfWeek', 'product_id', 'customer_id']
+2025-04-14 10:40:50.800 | INFO     | __main__:write_cube_to_csv:201 - OLAP cube saved to data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-14 10:40:50.800 | INFO     | __main__:main:233 - OLAP Cubing process completed successfully.
+2025-04-14 10:40:50.800 | INFO     | __main__:main:234 - Please see outputs in data\olap_cubing_outputs
