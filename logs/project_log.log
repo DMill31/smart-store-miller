@@ -189,3 +189,12 @@
 2025-04-14 10:55:19.303 | INFO     | __main__:load_olap_cube:26 - OLAP cube data successfully loaded from data\olap_cubing_outputs\multidimensional_olap_cube.csv.
 2025-04-14 10:55:19.305 | INFO     | __main__:analyze_top_product_by_month:42 - Top products identified for each month.
 2025-04-14 10:55:19.602 | INFO     | __main__:visualize_sales_by_month_and_product:79 - Stacked bar chart saved to screenshots\sales_by_month_and_product.png.
+2025-04-14 10:59:14.185 | INFO     | __main__:main:99 - Analysis and visualization completed successfully.
+2025-04-14 12:36:39.313 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-14 12:36:39.314 | INFO     | __main__:load_data:25 - Loading sales data from SQLite database...
+2025-04-14 12:36:39.315 | INFO     | __main__:load_data:43 - Sales data loaded successfully.
+2025-04-14 12:36:39.451 | INFO     | __main__:visualize_data:59 - Pie chart saved to screenshots\sales_by_customer.png.
+2025-04-14 12:37:14.758 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-14 12:37:14.758 | INFO     | __main__:load_data:25 - Loading sales data from SQLite database...
+2025-04-14 12:37:14.759 | INFO     | __main__:load_data:43 - Sales data loaded successfully.
+2025-04-14 12:37:14.892 | INFO     | __main__:visualize_data:59 - Pie chart saved to screenshots\sales_by_region.png.
