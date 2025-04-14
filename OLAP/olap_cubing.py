@@ -214,11 +214,11 @@ def main():
     # Step 2: Add additional columns for time-based dimensions
     sales_df["sale_date"] = pd.to_datetime(sales_df["sale_date"])
     sales_df["DayOfWeek"] = sales_df["sale_date"].dt.day_name()
-    sales_df["Month"] = sales_df["sale_date"].dt.month
+    sales_df["Month"] = sales_df["sale_date"].dt.month_name()
     sales_df["Year"] = sales_df["sale_date"].dt.year
 
     # Step 3: Define dimensions and metrics for the cube
-    dimensions = ["DayOfWeek", "product_id", "customer_id"]
+    dimensions = ["Month", "product_id", "customer_id"]
     metrics = {
         "sale_amount": ["sum", "mean"],
         "transaction_id": "count"

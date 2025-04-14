@@ -161,3 +161,31 @@
 2025-04-14 10:40:50.800 | INFO     | __main__:write_cube_to_csv:201 - OLAP cube saved to data\olap_cubing_outputs\multidimensional_olap_cube.csv.
 2025-04-14 10:40:50.800 | INFO     | __main__:main:233 - OLAP Cubing process completed successfully.
 2025-04-14 10:40:50.800 | INFO     | __main__:main:234 - Please see outputs in data\olap_cubing_outputs
+2025-04-14 10:47:55.578 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-14 10:47:55.578 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-14 10:47:55.580 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-14 10:47:55.586 | INFO     | __main__:create_olap_cube:162 - OLAP cube created with dimensions: ['Month', 'product_id', 'customer_id']
+2025-04-14 10:47:55.587 | INFO     | __main__:write_cube_to_csv:201 - OLAP cube saved to data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-14 10:47:55.587 | INFO     | __main__:main:233 - OLAP Cubing process completed successfully.
+2025-04-14 10:47:55.587 | INFO     | __main__:main:234 - Please see outputs in data\olap_cubing_outputs
+2025-04-14 10:48:43.214 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-14 10:48:43.214 | INFO     | __main__:main:209 - Starting OLAP Cubing process...
+2025-04-14 10:48:43.216 | INFO     | __main__:ingest_sales_data_from_dw:113 - Sales data successfully loaded from SQLite data warehouse.
+2025-04-14 10:48:43.222 | INFO     | __main__:create_olap_cube:162 - OLAP cube created with dimensions: ['Month', 'product_id', 'customer_id']
+2025-04-14 10:48:43.224 | INFO     | __main__:write_cube_to_csv:201 - OLAP cube saved to data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-14 10:48:43.224 | INFO     | __main__:main:233 - OLAP Cubing process completed successfully.
+2025-04-14 10:48:43.224 | INFO     | __main__:main:234 - Please see outputs in data\olap_cubing_outputs
+2025-04-14 10:53:48.145 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-14 10:53:48.145 | INFO     | __main__:main:88 - Starting TOP_PRODUCTS_BY_MONTH analysis...
+2025-04-14 10:53:48.148 | INFO     | __main__:load_olap_cube:26 - OLAP cube data successfully loaded from data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-14 10:53:48.148 | ERROR    | __main__:analyze_top_product_by_month:45 - Error analyzing top product by Month: 'Column not found: sale_amount_usd_sum'
+2025-04-14 10:54:38.888 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-14 10:54:38.888 | INFO     | __main__:main:88 - Starting TOP_PRODUCTS_BY_MONTH analysis...
+2025-04-14 10:54:38.891 | INFO     | __main__:load_olap_cube:26 - OLAP cube data successfully loaded from data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-14 10:54:38.893 | INFO     | __main__:analyze_top_product_by_month:42 - Top products identified for each month.
+2025-04-14 10:54:38.897 | ERROR    | __main__:visualize_sales_by_month_and_product:82 - Error visualizing sales by day and product: 'sale_amount_usd_sum'
+2025-04-14 10:55:19.300 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-14 10:55:19.300 | INFO     | __main__:main:88 - Starting TOP_PRODUCTS_BY_MONTH analysis...
+2025-04-14 10:55:19.303 | INFO     | __main__:load_olap_cube:26 - OLAP cube data successfully loaded from data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-14 10:55:19.305 | INFO     | __main__:analyze_top_product_by_month:42 - Top products identified for each month.
+2025-04-14 10:55:19.602 | INFO     | __main__:visualize_sales_by_month_and_product:79 - Stacked bar chart saved to screenshots\sales_by_month_and_product.png.
