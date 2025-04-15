@@ -217,3 +217,27 @@ Finally, the chart shows all the categories and subcategories of the products so
 ![dashboard](dashboard.png)
 
 Each chart/slicer/graph contains an outline to help visualize what data belongs where, and the slicers were purposefully kept away from the graphs/charts.
+
+## OLAP Project
+
+### Section 1. The Business Goal
+
+Three goals were put in mind when creating this project.
+1. The total sales by month and product
+2. The total sales by region
+3. The sales by each customer on each product
+
+These goals were choosen because they can help in terms of Data-Driven Decision Making.  Each one of these goals gives insight that can help us understand what these stores need to change in order to do better.
+
+### Section 2. Data Source
+
+For each goal, the information that we started with was 
+1. Pre-computed cube
+2. Data warehouse
+3. Pre-computed cube
+
+The columns that were used from each source were as follows:
+1. Month, product_id, sale_amount_sum
+2. Region, sale_amount
+3. customer_id, product_id, sale_amount_sum
+
