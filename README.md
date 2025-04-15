@@ -162,15 +162,15 @@ py prepare_sales_data.py
 
 **customers**
 
-![customers table](customers.png)
+![customers table](screenshots/customers.png)
 
 **products**
 
-![products table](products.png)
+![products table](screenshots/products.png)
 
 **sales**
 
-![sales table](sales.png)
+![sales table](screenshots/sales.png)
 
 ## SQL Queries and Reports
 
@@ -194,11 +194,11 @@ For our query a new table titled 'Top Customers' was created where now we can se
 
 ### Query Results
 
-![results](query.png)
+![results](screenshots/query.png)
 
 ### Model View
 
-![model](model.png)
+![model](screenshots/model.png)
 
 ### Dashboard Design
 
@@ -214,7 +214,7 @@ The line graph shows the sales over time.
 
 Finally, the chart shows all the categories and subcategories of the products sold.
 
-![dashboard](dashboard.png)
+![dashboard](screenshots/dashboard.png)
 
 Each chart/slicer/graph contains an outline to help visualize what data belongs where, and the slicers were purposefully kept away from the graphs/charts.
 
