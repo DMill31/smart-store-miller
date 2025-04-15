@@ -198,3 +198,16 @@
 2025-04-14 12:37:14.758 | INFO     | __main__:load_data:25 - Loading sales data from SQLite database...
 2025-04-14 12:37:14.759 | INFO     | __main__:load_data:43 - Sales data loaded successfully.
 2025-04-14 12:37:14.892 | INFO     | __main__:visualize_data:59 - Pie chart saved to screenshots\sales_by_region.png.
+2025-04-15 09:46:40.790 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-15 09:46:40.790 | INFO     | __main__:main:72 - Starting CUSTOMER_SALES_BY_PRODUCT analysis...
+2025-04-15 09:46:40.793 | INFO     | __main__:load_olap_cube:26 - OLAP cube data successfully loaded from data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-15 09:46:41.014 | INFO     | __main__:visualize_customer_sales_by_product:63 - Stacked bar chart saved to screenshots\customer_sales_by_product.png.
+2025-04-15 09:46:52.442 | INFO     | __main__:main:79 - Analysis and visualization completed successfully.
+2025-04-15 09:57:26.500 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-15 09:57:26.500 | INFO     | __main__:main:210 - Starting OLAP Cubing process...
+2025-04-15 09:57:26.501 | ERROR    | __main__:ingest_sales_data_from_dw:117 - Error loading sale table data from data warehouse: Execution failed on sql 'SELECT * FROM saleSELECT c.name FROM customer': near ".": syntax error
+2025-04-15 10:00:48.828 | INFO     | utils.logger:<module>:39 - Logging to file: logs\project_log.log
+2025-04-15 10:00:48.829 | INFO     | __main__:main:72 - Starting CUSTOMER_SALES_BY_PRODUCT analysis...
+2025-04-15 10:00:48.831 | INFO     | __main__:load_olap_cube:26 - OLAP cube data successfully loaded from data\olap_cubing_outputs\multidimensional_olap_cube.csv.
+2025-04-15 10:00:49.042 | INFO     | __main__:visualize_customer_sales_by_product:63 - Stacked bar chart saved to screenshots\customer_sales_by_product.png.
+2025-04-15 10:00:51.156 | INFO     | __main__:main:79 - Analysis and visualization completed successfully.
