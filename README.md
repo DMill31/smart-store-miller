@@ -241,3 +241,22 @@ The columns that were used from each source were as follows:
 2. Region, sale_amount
 3. customer_id, product_id, sale_amount_sum
 
+### Section 3. Tools
+
+Python was the tool used for this OLAP Project.  I have a familiarity with Python and I assumed that creating and using the cube would be easiest in code.  I would be very interested in redoing this project using a more drag-and-drop tool like PowerBI just to note the differences.
+
+### Section 4. Workflow and Logic
+
+With regards to workflow, the olap_cubing.py script was used to create our multidimensional olap cube.  When the cube wasn't used for analysis, the database was.  
+The data was then filtered, grouped, and visualized to help complete the goals.
+
+The dimensions used were:
+- Region
+- Month
+- CustomerID
+- ProductID
+
+The metrics and aggregations used were:
+- Sum of sale_amount
+
+### Section 5. Results
