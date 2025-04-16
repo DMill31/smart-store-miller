@@ -260,3 +260,22 @@ The metrics and aggregations used were:
 - Sum of sale_amount
 
 ### Section 5. Results
+
+**Goal 1. The total sales by month and product**
+
+![month_sales](screenshots/sales_by_month_and_product.png)
+
+From our visual, we can see that there is a deficit in purchases in the Months of March, September, and October.  Opposite that, June is the best month in terms of revenue.  Product 101 takes the cake as the product that brought in the most sales, followed by product 107.
+
+**Goal 2. The total sales by region**
+
+![region_sales](screenshots/sales_by_region.png)
+
+From this pie chart, we can see how much each region contributed to the total sales.  From most to least sales, our regions are south, east, west, north.
+
+**Goal 3. The sales by each customer on each product**
+
+![customer_sales](screenshots/customer_sales_by_product.png)
+
+Here we can see how each customer personally contributed to the total sales.  The bar graph is similar to the graph from goal 1, but it does show different information.  We can see that customers 1006 and 1004 stand out as they are the most sales and least sales customers respectively.  When looking at products, we are reinforced from goal 1 that product 101 is the product that brings in the most sales.
+
