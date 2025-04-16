@@ -250,13 +250,13 @@ Python was the tool used for this OLAP Project.  I have a familiarity with Pytho
 With regards to workflow, the olap_cubing.py script was used to create our multidimensional olap cube.  When the cube wasn't used for analysis, the database was.  
 The data was then filtered, grouped, and visualized to help complete the goals.
 
-The dimensions used were:
+**Dimensions:**
 - Region
 - Month
 - CustomerID
 - ProductID
 
-The metrics and aggregations used were:
+**Metrics and Aggregations:**
 - Sum of sale_amount
 
 ### Section 5. Results
@@ -279,3 +279,20 @@ From this pie chart, we can see how much each region contributed to the total sa
 
 Here we can see how each customer personally contributed to the total sales.  The bar graph is similar to the graph from goal 1, but it does show different information.  We can see that customers 1006 and 1004 stand out as they are the most sales and least sales customers respectively.  When looking at products, we are reinforced from goal 1 that product 101 is the product that brings in the most sales.
 
+### Section 6. Suggested Business Action
+
+**Goal 1.**
+
+From goal 1, the stores should make use of the information that June brings in the most sales.  Knowing this, the stores should have special sales during June because there will be people already in the stores, so these sales would influence them to make impulse buys to further increase revenue.  As for the dead months (March, September, October), a better campaign would be needed.  It is clear that the stores are getting very little action during these months so we need something to get people to the stores.  If that doesn't work then order less inventory for those months to cut expenses.
+
+**Goal 2.**
+
+In the South region, we want to implement sales and maybe even have more inventory available as nearly half of total sales come from the south.  Having said that, it would be nice to increase the sales in the other regions through advertisements or deals people can't pass up.
+
+**Goal 3.**
+
+With goal 3, we get more personal.  Knowing what product each customer buys can help us as we can create personalized offers for them.  Creating these offers shouldn't add a lot of expenses so it should be done for every customer rather than focusing on the customers who contribute the most sales.  Ideally we'd like more sales from every customer.
+
+### Section 7. Challenges
+
+The greatest challenge with this project was learning the cube.  I had to take a lot of time to deeply go through the olap_cubing.py script to fully understand what it does and how it creates the cube.  Then, it took a while to understand how to use the cube.  I'm not sure how much in the real world businesses will tell you goals, but I also had some trouble with creating goals.  I thankfully had a github repo full of examples to choose from.
