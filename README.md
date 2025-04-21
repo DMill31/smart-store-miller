@@ -296,3 +296,32 @@ With goal 3, we get more personal.  Knowing what product each customer buys can 
 ### Section 7. Challenges
 
 The greatest challenge with this project was learning the cube.  I had to take a lot of time to deeply go through the olap_cubing.py script to fully understand what it does and how it creates the cube.  Then, it took a while to understand how to use the cube.  I'm not sure how much in the real world businesses will tell you goals, but I also had some trouble with creating goals.  I thankfully had a github repo full of examples to choose from.
+
+## Final Custom BI Project
+
+### Section 1. The Business Goal
+
+The business goal for my final project is to **analyze sales trends by region over time**.  This goal can help businesses realize what products do better at what locations as well as how frequently sales are made and how much profit is being brought in.
+
+### Section 2. Data Source
+
+A data warehouse was used as the data source for this project.  Numerous columns were used, including sale_amount, region, category, subcategory, unit_price, sale_date, and payment_type.
+
+### Section 3. Tools Used
+
+For this project, Power BI was the tool used to create aggregations and visualizations.  Although the data warehouse was created in Python, Power BI did the rest.  Power BI was chosen as I find it easier to work with when creating good visuals than using a tool that is code-based.
+
+### Section 4. Workflow and Logic
+
+As mentioned, the data warehouse was done in Python, specifically, the etl_to_dw.py script.  After loading the data via ODBC in Power BI, the first thing was to aggregate the data.  I added a third table, named regions, that simply shows each region and the amount of sale associated with it.  Then multiple visuals were created to generate insights that would possibly help lead us to our goal.
+
+**Dimensions:**
+- Region
+- Category
+- Subcategory
+- Sale Date
+- Unit Price
+- Payment Type
+
+**Metrics and Aggregations:**
+- Sum of Sale Amount
