@@ -337,3 +337,17 @@ To give an example of how the slicers contribute, here is a dashboard where we c
 ![east_south](screenshots/east_south.png)
 
 ### Section 6. Suggested Business Action
+
+Based on the data from the dashboard we know that the south region was the one that contributed the most to total sales.  Knowing this, it would be best to have regional marketing done.  In the south, spending money on marketing seems like it would pay off, as for the other regions, we would only do marketing during their busy months (January for east, May for north and west).  We also learned that cash is rarely used, so there should be incentives created for cash-only purchases.  This would help us as we wouldn't have to pay to use card transactions as frequently.  Some incentives might be discounts for cash-only purhcases or even cash-back bonuses.
+
+In terms of categories and subcategories, sports is not doing great.  It may be for the best to stop offering these sports items to focus on the electronics and clothing that are making much more profit.  Lastly, when considering the price of the products offered, the majority of products purchased were all less than $100.  Although we do offer products that are more than $100, they are rarely purchased.  Knowing that, we should put discounts and/or deals on our more expensive products to get more cash-flow going with them.
+
+### Section 7. Challenges
+
+The largest challenge I faced while creating this project was figuring out what dimensions and aggregations to used.  Once I got my business goal, I had to brainstorm for a while to figure out what exactly would be helpful.  Knowing region and sale_amount was a given, but I wanted to breach further, to get into real insights rather than face-value.  I also struggled with how to format my dashboard.  The last dashboard I created had awkward empty space, and I didn't want that to happen again, so this time I had to take a bit more time in designing where everything was going.  I knew I wanted all my slicers to be together and that the line graph was going to be the largest graph because I feel that it is the most helpful visual.
+
+### Section 8. Ethical Considerations
+
+I did previously mention that this data is a little incomplete as there were months were there wasn't a single sale in certain regions.  It would be for the best to gather more sale data to have a line chart without any missing pieces.  It would be unethical to make a number of business decisions off of incomplete data.  
+
+The data itself is being used responsibly, it is solely being used for the business goal, nothing unnecessary was created with it.  The only bias that this analysis could reinforce would most likely be regional.  For instance the north region genereated the least amount to total sales of all the regions, so some might see that and have it reinforce an idea that people from the north region are poor or stingy.  The opposite could be said about the south, that they're rich and greedy.  It would be for the best for businesses to know if biases like this exist in the areas that they work in.
