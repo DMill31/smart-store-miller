@@ -325,3 +325,6 @@ As mentioned, the data warehouse was done in Python, specifically, the etl_to_dw
 
 **Metrics and Aggregations:**
 - Sum of Sale Amount
+
+### Section 5. Results
+
