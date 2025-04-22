@@ -328,3 +328,12 @@ As mentioned, the data warehouse was done in Python, specifically, the etl_to_dw
 
 ### Section 5. Results
 
+![final_dashboard](screenshots/final_dashboard.png)
+
+In our final visual created with Power BI, we have three slicers: one to control the data, one to control the price of products, and one to select region(s).  The line chart gives us a look at the sale amount of each region over time, the pie chart shows us how much each region contributed to the total sales, the stacked bar chart shows us the categories and subcategories that made the most profit, and the last bar chart shows how much of the sales came from cash or card.  The line charts have gaps because there were regions that didn't have a single sale in certain months.  Ideally, there would be data for every month but not everything works out the way we want it to.
+
+To give an example of how the slicers contribute, here is a dashboard where we compare the East and South regions while focusing on sales after May 1st with products costing less than $500.  
+
+![east_south](screenshots/east_south.png)
+
+### Section 6. Suggested Business Action
